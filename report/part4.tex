@@ -1,0 +1,99 @@
+\section{Tests on Real Datasets}
+\subsection{Binary Classification}
+The first real test, just to start with a warm-up, will focus on the detection of skin cancer. This is a binary classification, so it is likely that the "dark knowledge" will have a lower weight. In any case I proceeded in the same way as the tests with our "toy datasets", so with a training dataset, a validation dataset and a test dataset. As in the previous version I used image augmentation on the training and an EarlyStopping Callback to avoid overfitting and keep the best results on the validation set.\\
+The dataset can be found on kaggle at this url: https://www.kaggle.com/fanconic/skin-cancer-malignant-vs-benign
+
+
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{caption={The code for the Dataset creation}}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(
+        rotation_range=10, 
+        zoom_range = 0.1, 
+        width_shift_range=0.2,  
+        height_shift_range=0.2)  
+valid_datagen = tf.keras.preprocessing.image.ImageDataGenerator(
+    validation_split=0.1)
+
+test_datagen = tf.keras.preprocessing.image.ImageDataGenerator()
+train_generator = train_datagen.flow_from_directory(
+        path_to_train,
+        batch_size=BATCH_SIZE,
+        class_mode='binary',
+        seed=2,
+        subset='training')
+validation_generator = valid_datagen.flow_from_directory(
+        path_to_train,
+        batch_size=BATCH_SIZE,
+        seed=2,
+        class_mode='binary',
+        subset='validation')
+test_generator = test_datagen.flow_from_directory(
+		path_to_test
+        batch_size=BATCH_SIZE,
+        class_mode='binary')
+\end{lstlisting}
+
+Note that I initialized two datasets on train with the same seed to avoid that the validation\_set had image augmentation. But now let's see how to build, compile and train the master model.
+
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{caption={The code for the Dataset creation}}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+teacher_model = tf.keras.models.Sequential([
+                 	WideResidualNetwork(1, 28, 1, includeTop=False),
+                    	tf.keras.layers.Activation('sigmoid')
+])
+teacher_model.compile(optimizer='adam', 
+					loss=tf.keras.losses.binary_crossentropy, 
+					metrics=['accuracy'])
+
+es_callback = tf.keras.callbacks.EarlyStopping(patience=15,
+										restore_best_weights=True)
+history = teacher_model.fit(train_generator, callbacks=[es_callback],
+ 			steps_per_epoch=train_generator.samples//BATCH_SIZE, 
+ 			validation_data=validation_generator, 
+ 			validation_steps=validation_generator.samples//BATCH_SIZE, 
+ 			epochs=150)
+\end{lstlisting}
+As in the preliminary tests I used Adam optimizer, because even though SGD is used in the study, Adam in practice seems to have very good results and less need for tuning.\\
+So those are the result performed from the model in this particular task onto the test dataset:\\
+\begin{table}[h!]
+  \begin{center}
+    \caption{Results on Skin Cancer Dataset}
+    \begin{tabular}{l|c|c|c|c|r} 
+      \textbf{Metrics} & \textbf{WResnet-28-1} & \textbf{BAN-1} & \textbf{BAN-2} & \textbf{BAN-3} & \textbf{Ensemble}\\ 
+      \hline
+      Accuracy & 0.8303 & 0.8091 & 0.8227 & 0.8514 & 0.8227\\
+      Loss & 0.4225 & 0.4027 & 0.3864 & 0.3988 & 0.3681\\
+
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\subsection{Multiclass Classification}
+The dataset chosen for the multiclass classification is taken from kaggle at the following address: https://www.kaggle.com/gpiosenka/100-bird-species. It is a dataset with 225 different classes, quite uniform between the different classes and at the same time unbalanced within the classes between males and females, but it is suitable for the purpose.\\
+In this section I will perform several tests, and all will have image augmentation.
+In order to avoid training time issues, all models will not have too many parameters and images will be resized with shape (96, 96, 3). But let's see the results now
+\subsubsection{BAN with equal teacher and student}
+In this section the reference model will be a WideResidualNetwork-28-2, we will train 3 generations of students, after which we will also see the results on the test dataset of an Ensemble containing all the previously trained networks. The training parameters are the same into the previous tests. Let's look the results
+\begin{table}[h!]
+  \begin{center}
+    \caption{Results on Bird species Dataset}
+    \begin{tabular}{l|c|c|c|c|r} 
+      \textbf{Metrics} & \textbf{WResnet-28-2} & \textbf{BAN-1} & \textbf{BAN-2} & \textbf{BAN-3} & \textbf{Ensemble}\\ 
+      \hline
+      Accuracy & 0.9280 & 0.9511 & 0.9336 & 0.8987 & 0.9662\\
+      Loss & 0.2241 & 0.1955 & 0.4581 & 0.3558 & 0.1801\\
+
+    \end{tabular}
+  \end{center}
+\end{table}
+
+As you can see we have achieved significant improvements for the first two generations, and as you can see the Ensemble has the best performances even at the cost of a substantial increase in parameters.
+\subsubsection{BAN with different teacher and student}

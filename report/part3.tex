@@ -1,0 +1,90 @@
+\section{Preliminary Tests}
+Before starting the actual tests I will try to measure the performance of the model, all tests will be performed on cifar10 with data augmentation. In this paragraph I will just show how I performed the tests and the final results.\\
+Let's start with the initialization of the datagen and the training of the master model.\\
+
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{caption={The code for the Teacher training}}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+BATCH_SIZE = 32
+N_CLASSES = 10
+STEPS_PER_EPOCH = len(x_train)//BATCH_SIZE
+
+
+datagen = tf.keras.preprocessing.image.ImageDataGenerator(
+    rotation_range=20,
+    width_shift_range=0.2,
+    height_shift_range=0.2,
+    horizontal_flip=True
+)
+datagen.fit(x_train, seed=55)
+train_data = datagen.flow(x_train, y_train, batch_size=BATCH_SIZE)
+
+build_model= lambda: WideResidualNetwork(10, 28, 1)
+teacher_callback = tf.keras.callbacks.EarlyStopping(patience=8, restore_best_weights=True)
+
+teacher_model = build_model()
+teacher_model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+t_history = teacher_model.fit(train_data,             
+                      epochs=100,
+                      steps_per_epoch=STEPS_PER_EPOCH,
+                      callbacks = [teacher_callback],
+                      validation_data=(x_valid, y_valid))
+\end{lstlisting}
+At this point it is necessary to start training students using ban. The test as in the paper will be performed for three students.\\
+
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{caption={The code for the Students training}}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+student_callback = tf.keras.callbacks.EarlyStopping(patience=12,   
+		restore_best_weights=True)
+history, students = ban(teacher_model,3, build_model, train_data, (x_valid, y_valid),
+ [student_callback], 100, BATCH_SIZE)
+\end{lstlisting}
+
+And finally I proceeded with the ensemble\\
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{caption={The code for the Ensemble training}}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+ban = BANEnsemble(students)
+ban.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+
+\end{lstlisting}
+
+The code to evaluate the model is the following:\\
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{caption={The code for the Evaluation}}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+print("Evaluating the students: ")
+for student in students:
+  student.evaluate(x_valid, y_valid)
+
+print("Evaluating the ensemble: ")
+ban.evaluate(x_valid, y_valid)
+\end{lstlisting}
+And this is the table with the results:\\
+\begin{table}[h!]
+  \begin{center}
+    \caption{Results on Cifar10}
+    \begin{tabular}{l|c|c|c|c|r} 
+      \textbf{Metrics} & \textbf{WResnet-28-1} & \textbf{BAN-1} & \textbf{BAN-2} & \textbf{BAN-3} & \textbf{Ensemble}\\ 
+      \hline
+      Accuracy & 0.8570 & 0.8580 & 0.8574 & 0.8514 & 0.8747\\
+      Loss & 0.4225 & 0.4213 & 0.4212 & 0.4424 & 0.3745\\
+
+    \end{tabular}
+  \end{center}
+\end{table}
+
+The performances do not seem noteworthy compared to the tests carried out on the same dataset, but it should be remembered that I did not have any shrewdness that researchers had instead, such as image augmentation or a tuning of the optimizer parameters. All this, however, was beyond the purposes of the report that instead aims to test the BANs on real datasets. So after some results that after all are encouraging, so I decided to continue with the next step.
