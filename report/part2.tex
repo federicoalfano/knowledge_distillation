@@ -11,20 +11,21 @@ But now let's see the code:
 \lstset{label={lst:code_direct}}
 \lstset{basicstyle=\footnotesize}
 \begin{lstlisting}
-def distill_knowledge(teacher_model, student_model, train_dataset, valid_data, 
-                      student_callbacks, epochs, batch_size, steps_per_epoch):
-  def custom_generator(train_dataset, t_model):
+def distil_knowledge(teacher_model, student_model, train_dataset, 
+                      fit_args, ground_truth_weight=None):
+  if (ground_truth_weight is not None and (ground_truth_weight > 1 or ground_truth_weight < 0)):
+    raise ValueError("Please check the ground truth weight")
+  def custom_generator(train_dataset, t_model, ground_truth_weight):
     for (x, y) in train_dataset:
       y_targets = teacher_model(x)
+      if ground_truth_weight is not None:
+        y_targets = (1-ground_truth_weight)*y_targets+(ground_truth_weight)*y
       yield (x, y_targets)
 
   s_history = student_model.fit(custom_generator(train_dataset, 
-                                                 t_model=teacher_model),             
-                      epochs=epochs,
-                      steps_per_epoch=steps_per_epoch,
-                      callbacks = student_callbacks,
-                      validation_data=valid_data)
-
+                                                 t_model=teacher_model,
+                                                 ground_truth_weight=ground_truth_weight),             
+                                                 **fit_args)
   return s_history
 \end{lstlisting}
 \newpage
@@ -52,27 +53,30 @@ In this way there will be the maximum freedom on the choice of the student.
 \lstset{label={lst:code_direct}}
 \lstset{basicstyle=\footnotesize}
 \begin{lstlisting}
-
 def ban(teacher_model, n_students, build_model, 
-        train_dataset, valid_data, student_callbacks, 
-        epochs, batch_size, 
-        compile_args={'optimizer':'sgd', 
+        train_dataset, fit_args,
+        checkpoints=False,
+        ground_truth_weight=None,
+        compile_args={'optimizer':'adam', 
                       'loss': 'categorical_crossentropy', 
                       'metrics': ['accuracy']}):
-  students = [build_model() for i in range(n_students)]
+students = [build_model() for i in range(n_students)]
   students.insert(0, teacher_model)
   for student in students:
-    student.compile(optimizer=compile_args['optimizer'], loss=compile_args['loss'], 
-                    metrics=compile_args['metrics'])
+    student.compile(**compile_args)
   history = []
 
 
   for i in range(1, len(students)):
     print("Training BAN-{}".format(i))
-    current_history = distill_knowledge(students[i-1], 
-                                        students[i], train_dataset, 
-                                        valid_data, student_callbacks, 
-                                        epochs, batch_size, STEPS_PER_EPOCH)   
+    current_callbacks = fit_args['callbacks']
+    if checkpoints:
+      current_callbacks.append(tf.keras.callbacks.ModelCheckpoint(f"student.{i}.h5"))
+      fit_args['callbacks'] = current_callbacks
+    current_history = distil_knowledge(students[i-1], 
+                                        students[i], train_dataset,
+                                        fit_args,
+                                        ground_truth_weight=ground_truth_weight)   
     history.append(current_history)
   return history, students
 
