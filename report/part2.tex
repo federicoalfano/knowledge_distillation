@@ -26,8 +26,11 @@ def distil_knowledge(teacher_model, student_model, train_dataset,
                                                  t_model=teacher_model,
                                                  ground_truth_weight=ground_truth_weight),             
                                                  **fit_args)
+
   return s_history
 \end{lstlisting}
+
+The idea is simple, the training happens like any other model, but the labels are passed by a generator, which will use the training dataset to get the teacher's predictions. In case you want to "weigh" the probability distribution with the ground truth, it will be enough to set the parameter "\textit{ground\_truth\_weight}".
 \newpage
 \subsection{Born Again Network}
 
@@ -53,6 +56,7 @@ In this way there will be the maximum freedom on the choice of the student.
 \lstset{label={lst:code_direct}}
 \lstset{basicstyle=\footnotesize}
 \begin{lstlisting}
+
 def ban(teacher_model, n_students, build_model, 
         train_dataset, fit_args,
         checkpoints=False,
@@ -60,7 +64,7 @@ def ban(teacher_model, n_students, build_model,
         compile_args={'optimizer':'adam', 
                       'loss': 'categorical_crossentropy', 
                       'metrics': ['accuracy']}):
-students = [build_model() for i in range(n_students)]
+  students = [build_model() for i in range(n_students)]
   students.insert(0, teacher_model)
   for student in students:
     student.compile(**compile_args)
@@ -81,7 +85,7 @@ students = [build_model() for i in range(n_students)]
   return history, students
 
 \end{lstlisting}
-
+The algorithm builds the students using the function that is passed, then compiles all the students in a list. Before starting the training, put the teacher model at the top of the list. The training basically starts from the second element using knowledge distillation with the previous element. The method will return the histories and an array of students.
 \subsection{Knowledge Distillation integrations}
 In one of the papers cited we can find an example of a different way to see knowledge distillation\cite{kd} Caruana and his collaborators have noticed that in some cases the lowest probabilities are so close to zero that they have almost no influence on the final result\cite{conf}. The strategy found is therefore to train the student on the logits of the master trying to minimizing the "mean squared error".\\
 Another way to deal with the problem is to use a temperature variable in order to get a softened result, on which you can then effectively minimize crossentropy. So the soft-max with temperature $T$ will be calculated in this way:
@@ -91,7 +95,6 @@ q_i = \frac{\exp(z_i/T)}{\sum_j(\exp(z_i/T)}
 \end{equation}
 
 The paper\cite{kd} also introduces the possibility to use the ground truth to have a weighted average and get better results, also indicates that from empirical tests, assigning a lower weight to the ground truth produces better results.
-\newpage
 \subsection{Ensemble}
 Another technique mentioned in the paper\cite{ban} and which I think is worth replicating is the creation of an ensemble, obtained by the various generations of students. According to the researchers in several cases this technique allows for improvements in performance.\\
 Let's see the code of the Ensemble:

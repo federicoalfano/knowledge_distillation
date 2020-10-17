@@ -1,7 +1,7 @@
 \section{Tests on Real Datasets}
 \subsection{Binary Classification}
 The first real test, just to start with a warm-up, will focus on the detection of skin cancer. This is a binary classification, so it is likely that the "dark knowledge" will have a lower weight. In any case I proceeded in the same way as the tests with our "toy datasets", so with a training dataset, a validation dataset and a test dataset. As in the previous version I used image augmentation on the training and an EarlyStopping Callback to avoid overfitting and keep the best results on the validation set.\\
-The dataset can be found on kaggle at this url: https://www.kaggle.com/fanconic/skin-cancer-malignant-vs-benign
+The dataset can be found on kaggle at this url: \url{https://www.kaggle.com/fanconic/skin-cancer-malignant-vs-benign}.
 
 
 \lstset{language=Python}
@@ -54,7 +54,7 @@ teacher_model.compile(optimizer='adam',
 					metrics=['accuracy'])
 
 es_callback = tf.keras.callbacks.EarlyStopping(patience=15,
-										restore_best_weights=True)
+					restore_best_weights=True)
 history = teacher_model.fit(train_generator, callbacks=[es_callback],
  			steps_per_epoch=train_generator.samples//BATCH_SIZE, 
  			validation_data=validation_generator, 
@@ -77,7 +77,7 @@ So those are the result performed from the model in this particular task onto th
 \end{table}
 
 \subsection{Multiclass Classification}
-The dataset chosen for the multiclass classification is taken from kaggle at the following address: https://www.kaggle.com/gpiosenka/100-bird-species. It is a dataset with 225 different classes, quite uniform between the different classes and at the same time unbalanced within the classes between males and females, but it is suitable for the purpose.\\
+The dataset chosen for the multiclass classification is taken from kaggle at the following address: \url{https://www.kaggle.com/gpiosenka/100-bird-species}. It is a dataset with 225 different classes, quite uniform between the different classes and at the same time unbalanced within the classes between males and females, but it is suitable for the purpose.\\
 In this section I will perform several tests, and all will have image augmentation.
 In order to avoid training time issues, all models will not have too many parameters and images will be resized with shape (96, 96, 3). But let's see the results now
 \subsubsection{BAN with equal teacher and student}
@@ -97,3 +97,99 @@ In this section the reference model will be a WideResidualNetwork-28-2, we will 
 
 As you can see we have achieved significant improvements for the first two generations, and as you can see the Ensemble has the best performances even at the cost of a substantial increase in parameters.
 \subsubsection{BAN with different teacher and student}
+In this section we will build a model of complexity comparable to the teacher and try to apply knowledge distillation as in the paper.\\
+In particular I will instantiate as teacher a model taken from keras.applications: MobileNetV2, a model with 2.5M of parameters, while the student will be a WideResnet-16-4 with 2.8M of parameters. The preparation of the test is in practice identical to that of the previous paragraph, so I will focus mainly on the results obtained.\\
+Also the dataset used does not change compared to the previous paragraph.
+
+\begin{table}[h!]
+  \begin{center}
+    \caption{Results on Bird species Dataset}
+    \begin{tabular}{l|c|r} 
+      \textbf{Metrics} & \textbf{MobileNetV2} & \textbf{WResnet-16-4}\\ 
+      \hline
+      Accuracy & 0.9182 & 0.9333 \\
+      Loss & 0.2301 & 0.2924 \\
+
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\subsubsection{Multiple ways to apply Knowledge Distillation}
+In this section I decided to focus not on the results but on the implementation of the different types of knowledge distillation mentioned in the paper\cite{kd}. The methods developed are flexible enough to allow all these implementations in an easy way.
+\paragraph{Knowledge Distillation on logits with MSE}:
+Let's see the implementation:\\
+here we are going to train a teacher, then pop the top layer and then train students' logits on that
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{caption={KD on Logits}}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+teacher_model = tf.keras.models.Sequential([
+                         WideResidualNetwork(N_CLASSES, 28, 1, 
+                         includeActivation=False),
+                         tf.keras.layers.Activation('softmax')]
+                         )
+teacher_logits = teacher_model.layers[0]
+build_student = lambda : WideResidualNetwork(N_CLASSES, 28, 1, 
+						includeActivation=False)
+						
+EPOCHS = 100
+fit_args= dict(
+    epochs=EPOCHS,
+    batch_size=BATCH_SIZE,
+    callbacks=[tf.keras.callbacks.EarlyStopping(patience=5, 
+    				monitor='loss', 
+    				restore_best_weights=True)],
+    steps_per_epoch=len(x_train)//BATCH_SIZE
+)
+
+compile_args=dict(
+    optimizer='adam',
+    loss='mse'
+)
+history, students = ban(teacher_logits, 2, 
+						build_student, 
+						train_generator, 
+						fit_args=fit_args, 
+						compile_args=compile_args)
+\end{lstlisting}
+
+\paragraph{Knowledge Distillation With Softened Logits}
+An alternative way to exploit the knowledge distillation mentioned in the paper is, as described above, to use a temperature to get "soft" results.\\
+The easiest way to implement it is to add Lambda Layers during student training and then delete them during evaluation.
+\lstset{language=Python}
+\lstset{frame=lines}
+\lstset{caption={KD on Logits}}
+\lstset{label={lst:code_direct}}
+\lstset{basicstyle=\footnotesize}
+\begin{lstlisting}
+T = 3
+EPOCHS = 150
+fit_args= dict(
+    epochs=EPOCHS,
+    batch_size=BATCH_SIZE,
+    callbacks=[tf.keras.callbacks.EarlyStopping(patience=8, 
+    				monitor='loss', 
+    				restore_best_weights=True)],
+    steps_per_epoch=len(x_train)//BATCH_SIZE
+)
+
+softened_logits_teacher = tf.keras.Sequential(
+    [
+     teacher_model.layers[0],
+     tf.keras.layers.Lambda(lambda x: x/T),
+     tf.keras.layers.Activation('softmax')
+    ]
+)
+build_softened_logits_student = lambda : tf.keras.models.Sequential(
+    [
+     WideResidualNetwork(N_CLASSES, 28, 1, includeActivation=False),
+     tf.keras.layers.Lambda(lambda x: x/T),
+     tf.keras.layers.Activation('softmax')
+    ]
+)
+softened_logits_teacher.compile(optimizer='adam', 
+			loss='categorical_crossentropy', 
+			metrics=['accuracy'])
+\end{lstlisting}
