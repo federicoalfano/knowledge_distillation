@@ -93,7 +93,7 @@ loaded_model.load_weights('teacher.h5')
 ### Conclusion
 The final product of all the work can be found in the "report" folder which contains an accurate description of the procedure used in pdf format. The various tests performed are all in the "notebooks" folder and finally in the android folder we have the project of the final application that makes use of the model produced in the tests, there is also the apk. 
 
-![alt homepage](report/images/ara.png) ![alt homepage2](report/images/penguin.png) ![alt crop](report/images/crop.png)
+![alt homepage](report/images/ara.png | width=60) ![alt homepage2](report/images/penguin.png | width=60) ![alt crop](report/images/crop.png | width=60)
 
 ## Authors
  - **Federico Alfano**
