@@ -91,12 +91,17 @@ loaded_model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=
 loaded_model.load_weights('teacher.h5')
 ```
 ### Conclusion
-The final product of all the work can be found in the "report" folder which contains an accurate description of the procedure used in pdf format. The various tests performed are all in the "notebooks" folder and finally in the android folder we have the project of the final application that makes use of the model produced in the tests, there is also the apk. 
+The final product of all the work can be found in the "report" folder which contains an accurate description of the procedure used in pdf format. The various tests performed are all in the "notebooks" folder and finally in the android folder we have the project of the final application that makes use of the model produced in the tests. 
+
+
 <img src="report/images/ara.png" width="250">
 <img src="report/images/penguin.png " width="250">
 <img src="report/images/crop.png" width="250">
 
-
+If someone wanted to test the application on their own without the build, I left the apk in the android folder. Have fun with it!
 
 ## Authors
  - **Federico Alfano**
+
+## License
+**GPLV3**
