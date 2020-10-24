@@ -17,7 +17,7 @@ class ResidualBlock(layers.Layer):
         strides:
       Returns:
         a `ResidualBlock` instance.
-    """  
+    """
     super(ResidualBlock, self).__init__(**kwargs)
     self.conv_1 = layers.Conv2D(filters, (1, 1), strides=strides)
     self.bn_1 = layers.BatchNormalization()
@@ -69,7 +69,7 @@ class WideResidualNetwork(models.Model):
   """Instantiates the DenseNet architecture.
   Reference:
   - [Wide Residual Networks](
-      https://arxiv.org/abs/1605.07146 
+      https://arxiv.org/abs/1605.07146
   """
 
   def __init__(self, n_classes, d, k, kernel_size=(3, 3), activation='softmax',
@@ -77,9 +77,9 @@ class WideResidualNetwork(models.Model):
     """
   Arguments:
     n_classes: number of output classes.
-    d: 
-    k: 
-    kernel_size:
+    d: the depth of the network
+    k: the width of the network
+    kernel_size: kernel size to pass to the conv layers, default value it's ok in the majority of cases
     dropout_percentage: percentage of dropout if you want to use it
     strides:
     includeActivation: whether to include the activation layer if you want to work with logits
@@ -95,7 +95,7 @@ class WideResidualNetwork(models.Model):
     super(WideResidualNetwork, self).__init__(**kwargs)
     if (d-4)%6 != 0:
       raise ValueError('Please choose a correct depth!')
-    
+
     self.dropout_percentage = dropout_percentage
     self.N = int((d - 4) / 6)
     self.k = k
@@ -107,7 +107,10 @@ class WideResidualNetwork(models.Model):
     self.rel_1 = layers.ReLU()
     self.conv_1 = layers.Conv2D(16, (3, 3), padding='same')
     self.conv_2 = layers.Conv2D(16*k, (1, 1))
-    self.dense = layers.Dense(n_classes)
+    if n_classes>2
+        self.dense = layers.Dense(n_classes)
+    else:
+        self.dense = layers.Dense(1)
 
     self.res_block_1 = [ResidualBlock(16*self.k, self.kernel_size,  self.dropout_percentage) for _ in range(self.N)]
     self.res_single_1 = ResidualBlock(32*self.k, self.kernel_size,  self.dropout_percentage, strides=2)

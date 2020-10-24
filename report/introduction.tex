@@ -71,39 +71,41 @@ Let's see the code of the Model:
 \lstset{label={lst:code_direct}}
 \lstset{basicstyle=\footnotesize}
 \begin{lstlisting}
+
+
 class WideResidualNetwork(models.Model):
-  def __init__(self, n_classes, d, k, kernel_size=(3, 3),
-               dropout=False, dropout_percentage=0.3, strides=1, includeTop=True, **kwargs):
+
+
+  def __init__(self, n_classes, d, k, kernel_size=(3, 3), activation='softmax',
+               dropout_percentage=None, includeActivation=True, **kwargs):
+
     super(WideResidualNetwork, self).__init__(**kwargs)
     if (d-4)%6 != 0:
       raise ValueError('Please choose a correct depth!')
-    
-    self.dropout = dropout
+
     self.dropout_percentage = dropout_percentage
     self.N = int((d - 4) / 6)
     self.k = k
     self.d = d
-    self.includeTop = includeTop
+    self.includeActivation = includeActivation
     self.kernel_size = kernel_size
 
     self.bn_1 = layers.BatchNormalization()
     self.rel_1 = layers.ReLU()
     self.conv_1 = layers.Conv2D(16, (3, 3), padding='same')
     self.conv_2 = layers.Conv2D(16*k, (1, 1))
-    self.dense = layers.Dense(n_classes)
+    if n_classes>2
+        self.dense = layers.Dense(n_classes)
+    else:
+        self.dense = layers.Dense(1)
 
-    self.res_block_1 = [ResidualBlock(16*self.k, self.kernel_size, self.dropout,
-     self.dropout_percentage) for _ in range(self.N)]
-    self.res_single_1 = ResidualBlock(32*self.k, self.kernel_size, self.dropout,
-     self.dropout_percentage, strides=2)
-    self.res_block_2 = [ResidualBlock(32*self.k, self.kernel_size, self.dropout,
-     self.dropout_percentage) for _ in range(self.N-1)]
-    self.res_single_2 = ResidualBlock(64*self.k, self.kernel_size, self.dropout,
-     self.dropout_percentage, strides=2)
-    self.res_block_3 = [ResidualBlock(64*self.k, self.kernel_size, self.dropout,
-     self.dropout_percentage) for _ in range(self.N-1)]
+    self.res_block_1 = [ResidualBlock(16*self.k, self.kernel_size,  self.dropout_percentage) for _ in range(self.N)]
+    self.res_single_1 = ResidualBlock(32*self.k, self.kernel_size,  self.dropout_percentage, strides=2)
+    self.res_block_2 = [ResidualBlock(32*self.k, self.kernel_size,  self.dropout_percentage) for _ in range(self.N-1)]
+    self.res_single_2 = ResidualBlock(64*self.k, self.kernel_size,  self.dropout_percentage, strides=2)
+    self.res_block_3 = [ResidualBlock(64*self.k, self.kernel_size,  self.dropout_percentage) for _ in range(self.N-1)]
     self.pooling = layers.GlobalAveragePooling2D()
-    self.activation_layer = layers.Activation("softmax")
+    self.activation_layer = layers.Activation(activation)
 
 
 
@@ -127,7 +129,7 @@ class WideResidualNetwork(models.Model):
 
     x = self.pooling(x)
     x = self.dense(x)
-    if self.includeTop:
+    if self.includeActivation:
         x = self.activation_layer(x)
 
     return x
