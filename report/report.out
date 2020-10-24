@@ -12,3 +12,7 @@
 \BOOKMARK [3][-]{subsubsection.4.2.1}{BAN with equal teacher and student}{subsection.4.2}% 12
 \BOOKMARK [3][-]{subsubsection.4.2.2}{BAN with different teacher and student}{subsection.4.2}% 13
 \BOOKMARK [3][-]{subsubsection.4.2.3}{Multiple ways to apply Knowledge Distillation}{subsection.4.2}% 14
+\BOOKMARK [1][-]{section.5}{Proof of concept}{}% 15
+\BOOKMARK [2][-]{subsubsection.5.0.1}{H5 to tflite}{section.5}% 16
+\BOOKMARK [3][-]{subsubsection.5.0.2}{The Application logic}{subsubsection.5.0.1}% 17
+\BOOKMARK [3][-]{subsubsection.5.0.3}{The Application appearance}{subsubsection.5.0.1}% 18

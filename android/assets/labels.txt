@@ -1,0 +1,225 @@
+0 African firefinch
+1 Albatross
+2 Alexandrine parakeet
+3 American avocet
+4 American bittern
+5 American coot
+6 American goldfinch
+7 American kestrel
+8 American pipit
+9 American redstart
+10 Anhinga
+11 Annas hummingbird
+12 Antbird
+13 Araripe manakin
+14 Asian crested ibis
+15 Bald eagle
+16 Bali starling
+17 Baltimore oriole
+18 Bananaquit
+19 Bar-tailed godwit
+20 Barn owl
+21 Barn swallow
+22 Barred puffbird
+23 Bay-breasted warbler
+24 Bearded barbet
+25 Belted kingfisher
+26 Bird of paradise
+27 Black francolin
+28 Black skimmer
+29 Black swan
+30 Black throated warbler
+31 Black vulture
+32 Black-capped chickadee
+33 Black-necked grebe
+34 Black-throated sparrow
+35 Blackburniam warbler
+36 Blue grouse
+37 Blue heron
+38 Bobolink
+39 Brown noody
+40 Brown thrasher
+41 Cactus wren
+42 California condor
+43 California gull
+44 California quail
+45 Canary
+46 Cape may warbler
+47 Capuchinbird
+48 Carmine bee-eater
+49 Caspian tern
+50 Cassowary
+51 Chara de collar
+52 Chipping sparrow
+53 Chukar partridge
+54 Cinnamon teal
+55 Cock of the  rock
+56 Cockatoo
+57 Common grackle
+58 Common house martin
+59 Common loon
+60 Common poorwill
+61 Common starling
+62 Couchs kingbird
+63 Crested auklet
+64 Crested caracara
+65 Crow
+66 Crowned pigeon
+67 Cuban tody
+68 Curl crested aracuri
+69 D-arnauds barbet
+70 Dark eyed junco
+71 Downy woodpecker
+72 Eastern bluebird
+73 Eastern meadowlark
+74 Eastern rosella
+75 Eastern towee
+76 Elegant trogon
+77 Elliots  pheasant
+78 Emperor penguin
+79 Emu
+80 Eurasian magpie
+81 Evening grosbeak
+82 Flame tanager
+83 Flamingo
+84 Frigate
+85 Gambels quail
+86 Gila woodpecker
+87 Gilded flicker
+88 Glossy ibis
+89 Gold wing warbler
+90 Golden cheeked warbler
+91 Golden chlorophonia
+92 Golden eagle
+93 Golden pheasant
+94 Golden pipit
+95 Gouldian finch
+96 Gray catbird
+97 Gray partridge
+98 Green jay
+99 Grey plover
+100 Guineafowl
+101 Gyrfalcon
+102 Harpy eagle
+103 Hawaiian goose
+104 Hooded merganser
+105 Hoopoes
+106 Hornbill
+107 Horned guan
+108 Horned sungem
+109 House finch
+110 House sparrow
+111 Imperial shaq
+112 Inca tern
+113 Indian bustard
+114 Indigo bunting
+115 Jabiru
+116 Javan magpie
+117 Kakapo
+118 Killdear
+119 King vulture
+120 Kiwi
+121 Kookaburra
+122 Lark bunting
+123 Lears macaw
+124 Lilac roller
+125 Long-eared owl
+126 Malabar hornbill
+127 Malachite kingfisher
+128 Maleo
+129 Mallard duck
+130 Mandrin duck
+131 Marabou stork
+132 Masked booby
+133 Mikado  pheasant
+134 Mourning dove
+135 Myna
+136 Nicobar pigeon
+137 Northern cardinal
+138 Northern flicker
+139 Northern gannet
+140 Northern goshawk
+141 Northern jacana
+142 Northern mockingbird
+143 Northern parula
+144 Northern red bishop
+145 Ocellated turkey
+146 Okinawa rail
+147 Osprey
+148 Ostrich
+149 Painted buntig
+150 Palila
+151 Paradise tanager
+152 Parus major
+153 Peacock
+154 Pelican
+155 Peregrine falcon
+156 Philippine eagle
+157 Pink robin
+158 Puffin
+159 Purple finch
+160 Purple gallinule
+161 Purple martin
+162 Purple swamphen
+163 Quetzal
+164 Rainbow lorikeet
+165 Razorbill
+166 Red faced cormorant
+167 Red faced warbler
+168 Red headed duck
+169 Red headed woodpecker
+170 Red honey creeper
+171 Red throated bee eater
+172 Red winged blackbird
+173 Red wiskered bulbul
+174 Ring-necked pheasant
+175 Roadrunner
+176 Robin
+177 Rock dove
+178 Rosy faced lovebird
+179 Rough leg buzzard
+180 Ruby throated hummingbird
+181 Rufous kingfisher
+182 Rufuos motmot
+183 Sand martin
+184 Scarlet ibis
+185 Scarlet macaw
+186 Shoebill
+187 Smiths longspur
+188 Snowy egret
+189 Snowy owl
+190 Sora
+191 Spangled cotinga
+192 Splendid wren
+193 Spoon biled sandpiper
+194 Spoonbill
+195 Steamer duck
+196 Stork billed kingfisher
+197 Strawberry finch
+198 Stripped swallow
+199 Superb starling
+200 Taiwan magpie
+201 Takahe
+202 Tasmanian hen
+203 Teal duck
+204 Tit mouse
+205 Touchan
+206 Townsends warbler
+207 Tree swallow
+208 Trumpter swan
+209 Turkey vulture
+210 Turquoise motmot
+211 Varied thrush
+212 Venezuelian troupial
+213 Vermilion flycather
+214 Violet green swallow
+215 Wattled curassow
+216 Whimbrel
+217 White cheeked turaco
+218 White necked raven
+219 White tailed tropic
+220 Wild turkey
+221 Wilsons bird of paradise
+222 Wood duck
+223 Yellow cacique
+224 Yellow headed blackbird

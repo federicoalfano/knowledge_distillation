@@ -1,6 +1,6 @@
 def distil_knowledge(teacher_model, student_model, train_dataset, 
                       fit_args, ground_truth_weight=None):
-"""
+  """
 The method aims to match the teacher predictions on a student, optionally it can
 adjust its prediction with the aid of a given weight
   Reference:
@@ -19,8 +19,8 @@ adjust its prediction with the aid of a given weight
     history of the student model
   Raises:
     ValueError: in case of an invalid ground_truth_weight
+  """
 
-    """
   if (ground_truth_weight is not None and (ground_truth_weight > 1 or ground_truth_weight < 0)):
     raise ValueError("Please check the ground truth weight")
   def custom_generator(train_dataset, t_model, ground_truth_weight):
@@ -46,7 +46,7 @@ def ban(teacher_model, n_students, build_model,
                       'loss': 'categorical_crossentropy', 
                       'metrics': ['accuracy']}):
 
-"""
+  """
   The method trains some generations of students distilling the knowledge from the previous one,
   playing with build_model and compile args, allows you to perform different kinds of knowledge
   distillation
@@ -72,7 +72,7 @@ def ban(teacher_model, n_students, build_model,
     position the teacher model just to simplify the evaluation, if you don't need it, simply pop it
   
 
-    """
+  """
   students = [build_model() for i in range(n_students)]
   students.insert(0, teacher_model)
   for student in students:
@@ -92,3 +92,4 @@ def ban(teacher_model, n_students, build_model,
                                         ground_truth_weight=ground_truth_weight)   
     history.append(current_history)
   return history, students
+

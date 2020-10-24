@@ -115,10 +115,9 @@ Also the dataset used does not change compared to the previous paragraph.
 \end{table}
 
 \subsubsection{Multiple ways to apply Knowledge Distillation}
-In this section I decided to focus not on the results but on the implementation of the different types of knowledge distillation mentioned in the paper\cite{kd}. The methods developed are flexible enough to allow all these implementations in an easy way.
-\paragraph{Knowledge Distillation on logits with MSE}:
-Let's see the implementation:\\
-here we are going to train a teacher, then pop the top layer and then train students' logits on that
+In this section I decided to focus not on the results but on the implementation of the different types of knowledge distillation mentioned in the paper\cite{kd}, just out of curiosity to know how these would work with BAN. We immediately see that the methods  are flexible enough to allow all these implementations in an easy way.
+\paragraph{Knowledge Distillation on logits with MSE}:\\
+Here we are going to train a teacher, then pop the top layer and then train students' logits on that, but let's see the implementation:
 \lstset{language=Python}
 \lstset{frame=lines}
 \lstset{caption={KD on Logits}}

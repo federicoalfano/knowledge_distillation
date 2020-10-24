@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.15)  25 SEP 2020 19:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.9.15)  24 OCT 2020 03:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -444,8 +444,10 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no t in font nullfont!
@@ -672,8 +674,9 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no l in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no y in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
@@ -1059,6 +1062,79 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no . in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 1--7
 []
@@ -1067,6 +1143,26 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 1--7
 
 Overfull \hbox (5.43053pt too wide) in paragraph at lines 1--7
 []
+ []
+
+
+Overfull \hbox (28.27202pt too wide) in paragraph at lines 1--7
+\OT1/cmr/m/it/10 "prove
+ []
+
+
+Overfull \hbox (8.17773pt too wide) in paragraph at lines 1--7
+\OT1/cmr/m/it/10 of
+ []
+
+
+Overfull \hbox (18.39986pt too wide) in paragraph at lines 1--7
+\OT1/cmr/m/it/10 con-
+ []
+
+
+Overfull \hbox (22.2665pt too wide) in paragraph at lines 1--7
+\OT1/cmr/m/it/10 cept" 
  []
 
 ! Undefined control sequence.
@@ -2755,6 +2851,84 @@ l.50       x = self.conv_
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+! Missing $ inserted.
+<inserted text> 
+                $
+l.61 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 47--61
+[]
+ []
+
+
+Overfull \hbox (47.70258pt too wide) in paragraph at lines 47--61
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 res[] \O
+T1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (101.50206pt too wide) in paragraph at lines 47--61
+\OML/cmm/m/it/10 self:bn[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 inputs\OT1/cmr/m/n/
+10 )\OML/cmm/m/it/10 res[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (94.30342pt too wide) in paragraph at lines 47--61
+\OML/cmm/m/it/10 self:rel[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res[]\OT1/cmr/m/n/
+10 )\OML/cmm/m/it/10 res[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (141.92233pt too wide) in paragraph at lines 47--61
+\OML/cmm/m/it/10 self:conv[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res[]\OT1/cmr/m/n
+/10 )\OML/cmm/m/it/10 ifself:dropout \OT1/cmr/m/n/10 :
+ []
+
+
+Overfull \hbox (29.72337pt too wide) in paragraph at lines 47--61
+\OML/cmm/m/it/10 res[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (153.60352pt too wide) in paragraph at lines 47--61
+\OML/cmm/m/it/10 self:dropout[]ayer\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res[]; tra
+ining \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (71.32207pt too wide) in paragraph at lines 47--61
+\OML/cmm/m/it/10 training\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 res[] \OT1/cmr/m/n/1
+0 =
+ []
+
+
+Overfull \hbox (92.168pt too wide) in paragraph at lines 47--61
+\OML/cmm/m/it/10 self:bn[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res[]\OT1/cmr/m/n/1
+0 )\OML/cmm/m/it/10 res[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (94.30342pt too wide) in paragraph at lines 47--61
+\OML/cmm/m/it/10 self:rel[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res[]\OT1/cmr/m/n/
+10 )\OML/cmm/m/it/10 res[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (111.23242pt too wide) in paragraph at lines 47--61
+\OML/cmm/m/it/10 self:conv[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res[]\OT1/cmr/m/n
+/10 )\OML/cmm/m/it/10 inputs \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (137.15033pt too wide) in paragraph at lines 47--61
+\OML/cmm/m/it/10 self:add\OT1/cmr/m/n/10 ([\OML/cmm/m/it/10 x; res[]\OT1/cmr/m/
+n/10 ])\OML/cmm/m/it/10 returninputs$ 
+ []
+
 
 ! LaTeX Error: \begin{document} ended by \end{lstlisting}.
 
@@ -2762,16 +2936,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76 \end{lstlisting}
+l.62 \end{lstlisting}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Missing $ inserted.
+! Missing } inserted.
 <inserted text> 
-                $
-l.76 \end{lstlisting}
+                }
+l.62 \end{lstlisting}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2782,18 +2956,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.76 \end{lstlisting}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.76 \end{lstlisting}
+l.62 \end{lstlisting}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2804,9 +2967,22 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.76 \end{lstlisting}
+l.62 \end{lstlisting}
                      
 Things are pretty mixed up, but I think the worst is over.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.63 T
+      he block is the one shown in the figure, with a parameter to activate ...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no T in font nullfont!
 Missing character: There is no h in font nullfont!
@@ -3240,7 +3416,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no : in font nullfont!
 ! Undefined control sequence.
-l.81 \lstset
+l.67 \lstset
             {language=Python}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3264,7 +3440,7 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 ! Undefined control sequence.
-l.82 \lstset
+l.68 \lstset
             {frame=lines}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3284,8 +3460,8 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.83 \lstset
-            {caption={The code of the Residual Layer}}
+l.69 \lstset
+            {caption={The code of the Wide Residual Network}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3312,6 +3488,10 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no R in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
@@ -3320,13 +3500,15 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no u in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no l in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no y in font nullfont!
+Missing character: There is no N in font nullfont!
 Missing character: There is no e in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
+Missing character: There is no k in font nullfont!
 ! Undefined control sequence.
-l.84 \lstset
+l.70 \lstset
             {label={lst:code_direct}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3351,13 +3533,13 @@ Missing character: There is no e in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.84 \lstset{label={lst:code_
+l.70 \lstset{label={lst:code_
                              direct}}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.84 \lstset{label={lst:code_direct}
+l.70 \lstset{label={lst:code_direct}
                                     }
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3366,7 +3548,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Extra }, or forgotten $.
-l.84 \lstset{label={lst:code_direct}}
+l.70 \lstset{label={lst:code_direct}}
                                      
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3375,7 +3557,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ! Undefined control sequence.
-l.85 \lstset
+l.71 \lstset
             {basicstyle=\footnotesize}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3384,7 +3566,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.85 \lstset{basicstyle=\footnotesize
+l.71 \lstset{basicstyle=\footnotesize
                                      }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3399,7 +3581,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86 \begin{lstlisting}
+l.72 \begin{lstlisting}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3408,7 +3590,7 @@ or  <return>  to continue without it.
 ! Missing { inserted.
 <to be read again> 
                    _
-l.88   def __
+l.74   def __
              init__(self, n_classes, d, k, kernel_size=(3, 3),
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -3418,7 +3600,7 @@ so that I will find a matching right brace soon.
 ! Missing { inserted.
 <to be read again> 
                    _
-l.88   def __init__
+l.74   def __init__
                    (self, n_classes, d, k, kernel_size=(3, 3),
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -3428,7 +3610,7 @@ so that I will find a matching right brace soon.
 ! Missing { inserted.
 <to be read again> 
                    _
-l.90     super(WideResidualNetwork, self).__
+l.76     super(WideResidualNetwork, self).__
                                             init__(**kwargs)
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -3438,7 +3620,7 @@ so that I will find a matching right brace soon.
 ! Missing { inserted.
 <to be read again> 
                    _
-l.90     super(WideResidualNetwork, self).__init__
+l.76     super(WideResidualNetwork, self).__init__
                                                   (**kwargs)
 A left brace was mandatory here, so I've put one in.
 You might want to delete and/or insert some corrections
@@ -3448,7 +3630,7 @@ so that I will find a matching right brace soon.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.93 
+l.79 
      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3456,7 +3638,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.93 
+l.79 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3467,7 +3649,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.93 
+l.79 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3478,7 +3660,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.93 
+l.79 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3489,7 +3671,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.93 
+l.79 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3500,7 +3682,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing \endgroup inserted.
 <inserted text> 
                 \endgroup 
-l.93 
+l.79 
      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3509,95 +3691,18 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 47--93
+Overfull \hbox (20.0pt too wide) in paragraph at lines 63--79
 []
  []
 
 
-Overfull \hbox (47.70258pt too wide) in paragraph at lines 47--93
-[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 res[] \O
-T1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (101.50206pt too wide) in paragraph at lines 47--93
-\OML/cmm/m/it/10 self:bn[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 inputs\OT1/cmr/m/n/
-10 )\OML/cmm/m/it/10 res[] \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (94.30342pt too wide) in paragraph at lines 47--93
-\OML/cmm/m/it/10 self:rel[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res[]\OT1/cmr/m/n/
-10 )\OML/cmm/m/it/10 res[] \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (141.92233pt too wide) in paragraph at lines 47--93
-\OML/cmm/m/it/10 self:conv[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res[]\OT1/cmr/m/n
-/10 )\OML/cmm/m/it/10 ifself:dropout \OT1/cmr/m/n/10 :
- []
-
-
-Overfull \hbox (29.72337pt too wide) in paragraph at lines 47--93
-\OML/cmm/m/it/10 res[] \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (153.60352pt too wide) in paragraph at lines 47--93
-\OML/cmm/m/it/10 self:dropout[]ayer\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res[]; tra
-ining \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (71.32207pt too wide) in paragraph at lines 47--93
-\OML/cmm/m/it/10 training\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 res[] \OT1/cmr/m/n/1
-0 =
- []
-
-
-Overfull \hbox (92.168pt too wide) in paragraph at lines 47--93
-\OML/cmm/m/it/10 self:bn[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res[]\OT1/cmr/m/n/1
-0 )\OML/cmm/m/it/10 res[] \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (94.30342pt too wide) in paragraph at lines 47--93
-\OML/cmm/m/it/10 self:rel[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res[]\OT1/cmr/m/n/
-10 )\OML/cmm/m/it/10 res[] \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (111.23242pt too wide) in paragraph at lines 47--93
-\OML/cmm/m/it/10 self:conv[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 res[]\OT1/cmr/m/n
-/10 )\OML/cmm/m/it/10 inputs \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (227.67863pt too wide) in paragraph at lines 47--93
-\OML/cmm/m/it/10 self:add\OT1/cmr/m/n/10 ([\OML/cmm/m/it/10 x; res[]\OT1/cmr/m/
-n/10 ])\OML/cmm/m/it/10 returninputsdefget[]onfig\OT1/cmr/m/n/10 (\OML/cmm/m/it
-/10 self\OT1/cmr/m/n/10 ) :
- []
-
-
-Overfull \hbox (58.946pt too wide) in paragraph at lines 47--93
-\OML/cmm/m/it/10 base[]onfig \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (1165.06564pt too wide) in paragraph at lines 47--93
-\OML/cmm/m/it/10 super\OT1/cmr/m/n/10 ()\OML/cmm/m/it/10 :get[]onfig\OT1/cmr/m/
-n/10 ()\OML/cmm/m/it/10 return[]$
- []
-
-
-Overfull \hbox (281.77246pt too wide) in paragraph at lines 47--93
+Overfull \hbox (281.77246pt too wide) in paragraph at lines 63--79
 []\OML/cmm/m/it/10 irect[]classWideResidualNetwork\OT1/cmr/m/n/10 (\OML/cmm/m/i
 t/10 models:Model\OT1/cmr/m/n/10 ) :
  []
 
 
-Overfull \hbox (750.86649pt too wide) in paragraph at lines 47--93
+Overfull \hbox (750.86649pt too wide) in paragraph at lines 63--79
 \OML/cmm/m/it/10 def[]$ 
  []
 
@@ -3608,7 +3713,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94     s
+l.80     s
           elf.dropout = dropout
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3648,7 +3753,7 @@ Missing character: There is no t in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.95     self.dropout_
+l.81     self.dropout_
                       percentage = dropout_percentage
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3656,54 +3761,54 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.101 
-      
+l.87 
+     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 94--101
+Overfull \hbox (20.0pt too wide) in paragraph at lines 80--87
 []
  []
 
 
-Overfull \hbox (58.2914pt too wide) in paragraph at lines 94--101
+Overfull \hbox (58.2914pt too wide) in paragraph at lines 80--87
 []\OML/cmm/m/it/10 ercentage \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (122.19083pt too wide) in paragraph at lines 94--101
+Overfull \hbox (122.19083pt too wide) in paragraph at lines 80--87
 \OML/cmm/m/it/10 dropout[]ercentageself:N \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (33.81906pt too wide) in paragraph at lines 94--101
+Overfull \hbox (33.81906pt too wide) in paragraph at lines 80--87
 \OML/cmm/m/it/10 int\OT1/cmr/m/n/10 ((\OML/cmm/m/it/10 d \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (59.57303pt too wide) in paragraph at lines 94--101
+Overfull \hbox (59.57303pt too wide) in paragraph at lines 80--87
 \OT1/cmr/m/n/10 4)\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 6)\OML/cmm/m/it/10 self:k \
 OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (42.00005pt too wide) in paragraph at lines 94--101
+Overfull \hbox (42.00005pt too wide) in paragraph at lines 80--87
 \OML/cmm/m/it/10 kself:d \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (86.13165pt too wide) in paragraph at lines 94--101
+Overfull \hbox (86.13165pt too wide) in paragraph at lines 80--87
 \OML/cmm/m/it/10 dself:includeTop \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (127.0017pt too wide) in paragraph at lines 94--101
+Overfull \hbox (127.0017pt too wide) in paragraph at lines 80--87
 \OML/cmm/m/it/10 includeTopself:kernel[]ize \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (46.0749pt too wide) in paragraph at lines 94--101
+Overfull \hbox (46.0749pt too wide) in paragraph at lines 80--87
 \OML/cmm/m/it/10 kernel[]ize$ 
  []
 
@@ -3714,8 +3819,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102     s
-           elf.bn_1 = layers.BatchNormalization()
+l.88     s
+          elf.bn_1 = layers.BatchNormalization()
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -3729,63 +3834,63 @@ Missing character: There is no n in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.102     self.bn_
-                  1 = layers.BatchNormalization()
+l.88     self.bn_
+                 1 = layers.BatchNormalization()
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.107 
-      
+l.93 
+     
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (35.04164pt too wide) in paragraph at lines 102--107
+Overfull \hbox (35.04164pt too wide) in paragraph at lines 88--93
 []$[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (181.41493pt too wide) in paragraph at lines 102--107
+Overfull \hbox (181.41493pt too wide) in paragraph at lines 88--93
 \OML/cmm/m/it/10 layers:BatchNormalization\OT1/cmr/m/n/10 ()\OML/cmm/m/it/10 se
 lf:rel[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (121.25163pt too wide) in paragraph at lines 102--107
+Overfull \hbox (121.25163pt too wide) in paragraph at lines 88--93
 \OML/cmm/m/it/10 layers:ReLU\OT1/cmr/m/n/10 ()\OML/cmm/m/it/10 self:conv[] \OT1
 /cmr/m/n/10 =
  []
 
 
-Overfull \hbox (161.7779pt too wide) in paragraph at lines 102--107
+Overfull \hbox (161.7779pt too wide) in paragraph at lines 88--93
 \OML/cmm/m/it/10 layers:Conv\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 D\OT1/cmr/m/n/10 
 (16\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (3\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 3)\O
 ML/cmm/m/it/10 ; padding \OT1/cmr/m/n/10 =[]
  []
 
 
-Overfull \hbox (85.88908pt too wide) in paragraph at lines 102--107
+Overfull \hbox (85.88908pt too wide) in paragraph at lines 88--93
 \OML/cmm/m/it/10 same[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 self:conv[] \OT1/cmr/m
 /n/10 =
  []
 
 
-Overfull \hbox (87.00296pt too wide) in paragraph at lines 102--107
+Overfull \hbox (87.00296pt too wide) in paragraph at lines 88--93
 \OML/cmm/m/it/10 layers:Conv\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 D\OT1/cmr/m/n/10 
 (16 \OMS/cmsy/m/n/10 ^^C
  []
 
 
-Overfull \hbox (92.55798pt too wide) in paragraph at lines 102--107
+Overfull \hbox (92.55798pt too wide) in paragraph at lines 88--93
 \OML/cmm/m/it/10 k; \OT1/cmr/m/n/10 (1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1))\OM
 L/cmm/m/it/10 self:dense \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (104.23743pt too wide) in paragraph at lines 102--107
+Overfull \hbox (104.23743pt too wide) in paragraph at lines 88--93
 \OML/cmm/m/it/10 layers:Dense\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 n[]lasses\OT1/cm
 r/m/n/10 )$ 
  []
@@ -3797,8 +3902,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.108     s
-           elf.res_block_1 = [ResidualBlock(16*self.k, self.kernel_size, sel...
+l.94     s
+          elf.res_block_1 = [ResidualBlock(16*self.k, self.kernel_size, self...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3814,113 +3919,113 @@ Missing character: There is no s in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.108     self.res_
-                   block_1 = [ResidualBlock(16*self.k, self.kernel_size, sel...
+l.94     self.res_
+                  block_1 = [ResidualBlock(16*self.k, self.kernel_size, self...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.115 
+l.106 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (56.6197pt too wide) in paragraph at lines 108--115
+Overfull \hbox (56.6197pt too wide) in paragraph at lines 94--106
 []$[]\OML/cmm/m/it/10 lock[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (87.4847pt too wide) in paragraph at lines 108--115
+Overfull \hbox (87.4847pt too wide) in paragraph at lines 94--106
 \OT1/cmr/m/n/10 [\OML/cmm/m/it/10 ResidualBlock\OT1/cmr/m/n/10 (16 \OMS/cmsy/m/
 n/10 ^^C
  []
 
 
-Overfull \hbox (435.04547pt too wide) in paragraph at lines 108--115
+Overfull \hbox (435.04547pt too wide) in paragraph at lines 94--106
 \OML/cmm/m/it/10 self:k; self:kernel[]ize; self:dropout; self:dropout[]ercentag
 e\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 for[]nrange\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
  self:N\OT1/cmr/m/n/10 )]\OML/cmm/m/it/10 self:res[]ingle[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (84.70691pt too wide) in paragraph at lines 108--115
+Overfull \hbox (84.70691pt too wide) in paragraph at lines 94--106
 \OML/cmm/m/it/10 ResidualBlock\OT1/cmr/m/n/10 (32 \OMS/cmsy/m/n/10 ^^C
  []
 
 
-Overfull \hbox (309.73311pt too wide) in paragraph at lines 108--115
+Overfull \hbox (309.73311pt too wide) in paragraph at lines 94--106
 \OML/cmm/m/it/10 self:k; self:kernel[]ize; self:dropout; self:dropout[]ercentag
 e; strides \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (80.36058pt too wide) in paragraph at lines 108--115
+Overfull \hbox (80.36058pt too wide) in paragraph at lines 94--106
 \OT1/cmr/m/n/10 2)\OML/cmm/m/it/10 self:res[]lock[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (87.4847pt too wide) in paragraph at lines 108--115
+Overfull \hbox (87.4847pt too wide) in paragraph at lines 94--106
 \OT1/cmr/m/n/10 [\OML/cmm/m/it/10 ResidualBlock\OT1/cmr/m/n/10 (32 \OMS/cmsy/m/
 n/10 ^^C
  []
 
 
-Overfull \hbox (359.57588pt too wide) in paragraph at lines 108--115
+Overfull \hbox (359.57588pt too wide) in paragraph at lines 94--106
 \OML/cmm/m/it/10 self:k; self:kernel[]ize; self:dropout; self:dropout[]ercentag
 e\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 for[]nrange\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
  self:N \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (88.2474pt too wide) in paragraph at lines 108--115
+Overfull \hbox (88.2474pt too wide) in paragraph at lines 94--106
 \OT1/cmr/m/n/10 1)]\OML/cmm/m/it/10 self:res[]ingle[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (84.70691pt too wide) in paragraph at lines 108--115
+Overfull \hbox (84.70691pt too wide) in paragraph at lines 94--106
 \OML/cmm/m/it/10 ResidualBlock\OT1/cmr/m/n/10 (64 \OMS/cmsy/m/n/10 ^^C
  []
 
 
-Overfull \hbox (309.73311pt too wide) in paragraph at lines 108--115
+Overfull \hbox (309.73311pt too wide) in paragraph at lines 94--106
 \OML/cmm/m/it/10 self:k; self:kernel[]ize; self:dropout; self:dropout[]ercentag
 e; strides \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (80.36058pt too wide) in paragraph at lines 108--115
+Overfull \hbox (80.36058pt too wide) in paragraph at lines 94--106
 \OT1/cmr/m/n/10 2)\OML/cmm/m/it/10 self:res[]lock[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (87.4847pt too wide) in paragraph at lines 108--115
+Overfull \hbox (87.4847pt too wide) in paragraph at lines 94--106
 \OT1/cmr/m/n/10 [\OML/cmm/m/it/10 ResidualBlock\OT1/cmr/m/n/10 (64 \OMS/cmsy/m/
 n/10 ^^C
  []
 
 
-Overfull \hbox (359.57588pt too wide) in paragraph at lines 108--115
+Overfull \hbox (359.57588pt too wide) in paragraph at lines 94--106
 \OML/cmm/m/it/10 self:k; self:kernel[]ize; self:dropout; self:dropout[]ercentag
 e\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 for[]nrange\OT1/cmr/m/n/10 (\OML/cmm/m/it/10
  self:N \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (75.42326pt too wide) in paragraph at lines 108--115
+Overfull \hbox (75.42326pt too wide) in paragraph at lines 94--106
 \OT1/cmr/m/n/10 1)]\OML/cmm/m/it/10 self:pooling \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (252.50876pt too wide) in paragraph at lines 108--115
+Overfull \hbox (252.50876pt too wide) in paragraph at lines 94--106
 \OML/cmm/m/it/10 layers:GlobalAveragePooling\OT1/cmr/m/n/10 2\OML/cmm/m/it/10 D
 \OT1/cmr/m/n/10 ()\OML/cmm/m/it/10 self:activation[]ayer \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (134.59775pt too wide) in paragraph at lines 108--115
+Overfull \hbox (134.59775pt too wide) in paragraph at lines 94--106
 \OML/cmm/m/it/10 layers:Activation\OT1/cmr/m/n/10 ("\OML/cmm/m/it/10 softmax\OT
 1/cmr/m/n/10 ")$ 
  []
@@ -3932,7 +4037,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.118   d
+l.109   d
          ef call(self, inputs, training=None):
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3984,7 +4089,7 @@ Missing character: There is no n in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.119     x = self.bn_
+l.110     x = self.bn_
                       1(inputs)
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -3992,53 +4097,53 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.125 
+l.116 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 118--125
+Overfull \hbox (20.0pt too wide) in paragraph at lines 109--116
 []
  []
 
 
-Overfull \hbox (57.03664pt too wide) in paragraph at lines 118--125
+Overfull \hbox (57.03664pt too wide) in paragraph at lines 109--116
 []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 inputs\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 x \
 OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (67.39824pt too wide) in paragraph at lines 118--125
+Overfull \hbox (67.39824pt too wide) in paragraph at lines 109--116
 \OML/cmm/m/it/10 self:rel[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )
 \OML/cmm/m/it/10 x \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (74.99318pt too wide) in paragraph at lines 118--125
+Overfull \hbox (74.99318pt too wide) in paragraph at lines 109--116
 \OML/cmm/m/it/10 self:conv[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 
 )\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (173.42407pt too wide) in paragraph at lines 118--125
+Overfull \hbox (173.42407pt too wide) in paragraph at lines 109--116
 \OML/cmm/m/it/10 self:conv[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 
 )\OML/cmm/m/it/10 forlayerinself:res[]lock[] \OT1/cmr/m/n/10 :
  []
 
 
-Overfull \hbox (16.27078pt too wide) in paragraph at lines 118--125
+Overfull \hbox (16.27078pt too wide) in paragraph at lines 109--116
 \OML/cmm/m/it/10 x \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (85.48758pt too wide) in paragraph at lines 118--125
+Overfull \hbox (85.48758pt too wide) in paragraph at lines 109--116
 \OML/cmm/m/it/10 layer\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; training \OT1/cmr/m/
 n/10 =
  []
 
 
-Overfull \hbox (41.5987pt too wide) in paragraph at lines 118--125
+Overfull \hbox (41.5987pt too wide) in paragraph at lines 109--116
 \OML/cmm/m/it/10 training\OT1/cmr/m/n/10 )$ 
  []
 
@@ -4049,7 +4154,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126     x
+l.117     x
             = self.res_single_1(x, training=training)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4067,7 +4172,7 @@ Missing character: There is no s in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.126     x = self.res_
+l.117     x = self.res_
                        single_1(x, training=training)
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4075,24 +4180,24 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.127 
+l.118 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 126--127
+Overfull \hbox (20.0pt too wide) in paragraph at lines 117--118
 []
  []
 
 
-Overfull \hbox (93.48712pt too wide) in paragraph at lines 126--127
+Overfull \hbox (93.48712pt too wide) in paragraph at lines 117--118
 []\OML/cmm/m/it/10 ingle[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; training \OT1/cm
 r/m/n/10 =
  []
 
 
-Overfull \hbox (41.5987pt too wide) in paragraph at lines 126--127
+Overfull \hbox (41.5987pt too wide) in paragraph at lines 117--118
 \OML/cmm/m/it/10 training\OT1/cmr/m/n/10 )$ 
  []
 
@@ -4103,7 +4208,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128     f
+l.119     f
            or layer in self.res_block_2:
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4129,7 +4234,7 @@ Missing character: There is no s in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.128     for layer in self.res_
+l.119     for layer in self.res_
                                 block_2:
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4137,34 +4242,34 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.130 
+l.121 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 128--130
+Overfull \hbox (20.0pt too wide) in paragraph at lines 119--121
 []
  []
 
 
-Overfull \hbox (31.61969pt too wide) in paragraph at lines 128--130
+Overfull \hbox (31.61969pt too wide) in paragraph at lines 119--121
 []\OML/cmm/m/it/10 lock[] \OT1/cmr/m/n/10 :
  []
 
 
-Overfull \hbox (16.27078pt too wide) in paragraph at lines 128--130
+Overfull \hbox (16.27078pt too wide) in paragraph at lines 119--121
 \OML/cmm/m/it/10 x \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (85.48758pt too wide) in paragraph at lines 128--130
+Overfull \hbox (85.48758pt too wide) in paragraph at lines 119--121
 \OML/cmm/m/it/10 layer\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; training \OT1/cmr/m/
 n/10 =
  []
 
 
-Overfull \hbox (41.5987pt too wide) in paragraph at lines 128--130
+Overfull \hbox (41.5987pt too wide) in paragraph at lines 119--121
 \OML/cmm/m/it/10 training\OT1/cmr/m/n/10 )$ 
  []
 
@@ -4175,7 +4280,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.131     x
+l.122     x
             = self.res_single_2(x, training=training)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4193,7 +4298,7 @@ Missing character: There is no s in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.131     x = self.res_
+l.122     x = self.res_
                        single_2(x, training=training)
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4201,24 +4306,24 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.132 
+l.123 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 131--132
+Overfull \hbox (20.0pt too wide) in paragraph at lines 122--123
 []
  []
 
 
-Overfull \hbox (93.48712pt too wide) in paragraph at lines 131--132
+Overfull \hbox (93.48712pt too wide) in paragraph at lines 122--123
 []\OML/cmm/m/it/10 ingle[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; training \OT1/cm
 r/m/n/10 =
  []
 
 
-Overfull \hbox (41.5987pt too wide) in paragraph at lines 131--132
+Overfull \hbox (41.5987pt too wide) in paragraph at lines 122--123
 \OML/cmm/m/it/10 training\OT1/cmr/m/n/10 )$ 
  []
 
@@ -4229,7 +4334,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133     f
+l.124     f
            or layer in self.res_block_3:
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4255,7 +4360,7 @@ Missing character: There is no s in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.133     for layer in self.res_
+l.124     for layer in self.res_
                                 block_3:
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4263,39 +4368,39 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.135 
+l.126 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 133--135
+Overfull \hbox (20.0pt too wide) in paragraph at lines 124--126
 []
  []
 
 
-Overfull \hbox (31.61969pt too wide) in paragraph at lines 133--135
+Overfull \hbox (31.61969pt too wide) in paragraph at lines 124--126
 []\OML/cmm/m/it/10 lock[] \OT1/cmr/m/n/10 :
  []
 
 
-Overfull \hbox (16.27078pt too wide) in paragraph at lines 133--135
+Overfull \hbox (16.27078pt too wide) in paragraph at lines 124--126
 \OML/cmm/m/it/10 x \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (16.27078pt too wide) in paragraph at lines 133--135
+Overfull \hbox (16.27078pt too wide) in paragraph at lines 124--126
 \OML/cmm/m/it/10 x \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (85.48758pt too wide) in paragraph at lines 133--135
+Overfull \hbox (85.48758pt too wide) in paragraph at lines 124--126
 \OML/cmm/m/it/10 layer\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; training \OT1/cmr/m/
 n/10 =
  []
 
 
-Overfull \hbox (41.5987pt too wide) in paragraph at lines 133--135
+Overfull \hbox (41.5987pt too wide) in paragraph at lines 124--126
 \OML/cmm/m/it/10 training\OT1/cmr/m/n/10 )$ 
  []
 
@@ -4306,7 +4411,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.136     x
+l.127     x
             = self.pooling(x)
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4381,7 +4486,7 @@ Missing character: There is no n in font nullfont!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.139         x = self.activation_
+l.130         x = self.activation_
                                   layer(x)
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -4389,18 +4494,18 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.140 
+l.131 
       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 136--140
+Overfull \hbox (20.0pt too wide) in paragraph at lines 127--131
 []
  []
 
 
-Overfull \hbox (36.55565pt too wide) in paragraph at lines 136--140
+Overfull \hbox (36.55565pt too wide) in paragraph at lines 127--131
 []\OML/cmm/m/it/10 ayer\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$ 
  []
 
@@ -4411,7 +4516,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.141     r
+l.132     r
            eturn x
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -4424,64 +4529,8 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no x in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 141--142
+Overfull \hbox (20.0pt too wide) in paragraph at lines 132--133
 []
- []
-
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.143   d
-         ef get_config(self):
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no d in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no t in font nullfont!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.143   def get_
-                config(self):
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.166 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 143--166
-[]
- []
-
-
-Overfull \hbox (61.29907pt too wide) in paragraph at lines 143--166
-[]\OML/cmm/m/it/10 onfig\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 self\OT1/cmr/m/n/10 )
- :
- []
-
-
-Overfull \hbox (58.946pt too wide) in paragraph at lines 143--166
-\OML/cmm/m/it/10 base[]onfig \OT1/cmr/m/n/10 =
- []
-
-
-Overfull \hbox (2302.14928pt too wide) in paragraph at lines 143--166
-\OML/cmm/m/it/10 super\OT1/cmr/m/n/10 ()\OML/cmm/m/it/10 :get[]onfig\OT1/cmr/m/
-n/10 ()\OML/cmm/m/it/10 return[]$ 
  []
 
 
@@ -4491,7 +4540,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 \end{lstlisting}
+l.134 \end{lstlisting}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4500,7 +4549,7 @@ or  <return>  to continue without it.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.167 \end{lstlisting}
+l.134 \end{lstlisting}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -4511,7 +4560,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.167 \end{lstlisting}
+l.134 \end{lstlisting}
                       
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -4522,10 +4571,94 @@ my insertion and my current dilemma will both disappear.
 ! Extra \endgroup.
 <recently read> \endgroup 
                           
-l.167 \end{lstlisting}
+l.134 \end{lstlisting}
                       
 Things are pretty mixed up, but I think the worst is over.
 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 I
+       n both cases I omitted the \textit{get\_config} function, as it is no...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no . in font nullfont!
 )
 ! Emergency stop.
 <*> introduction.tex
@@ -4534,11 +4667,11 @@ Things are pretty mixed up, but I think the worst is over.
 
  
 Here is how much of TeX's memory you used:
- 20 strings out of 494923
- 312 string characters out of 6180742
- 57844 words of memory out of 5000000
- 3433 multiletter control sequences out of 15000+600000
- 3948 words of font info for 15 fonts, out of 8000000 for 9000
+ 23 strings out of 494923
+ 351 string characters out of 6180742
+ 54060 words of memory out of 5000000
+ 3435 multiletter control sequences out of 15000+600000
+ 4294 words of font info for 16 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  20i,6n,26p,606b,115s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
