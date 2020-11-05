@@ -40,9 +40,9 @@ fit_args = dict(
     callbacks = callbacks
     )
 ```
-And finally we can call the distill_knowledge method
+And finally we can call the distil_knowledge method
 ```
-history = distill_knowledge(teacher_model, student_model, train_generator, fit_args=fit_args)
+history = distil_knowledge(teacher_model, student_model, train_generator, fit_args=fit_args)
 ```
 
 ban takes essentially the same parameters as distil_knowledge, but in addition it requires the number of students, instead of the student it requires a function to build the student plus the parameters for the building.
