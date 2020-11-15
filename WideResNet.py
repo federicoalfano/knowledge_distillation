@@ -107,7 +107,7 @@ class WideResidualNetwork(models.Model):
     self.rel_1 = layers.ReLU()
     self.conv_1 = layers.Conv2D(16, (3, 3), padding='same')
     self.conv_2 = layers.Conv2D(16*k, (1, 1))
-    if n_classes>2
+    if n_classes>2:
         self.dense = layers.Dense(n_classes)
     else:
         self.dense = layers.Dense(1)
